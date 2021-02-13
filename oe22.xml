@@ -62,7 +62,7 @@
 
   <!--
 
-    repo init \-\-repo-branch=repo-1 -u https://github.com/lgirdk/manifests-ofw.git -m ofw-2009-oe22.xml
+    repo init \-\-repo-branch=repo-1 -u https://github.com/lgirdk/manifests-ofw.git -b ofw-2009 -m oe22.xml
     repo sync \-\-no-clone-bundle
 
     MACHINE="exm-qemuarm" source ./meta-mng/setup-environment
