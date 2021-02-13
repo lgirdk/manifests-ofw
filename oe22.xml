@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="lgirdk" fetch="https://github.com/lgirdk/" revision="ofw-2009" />
+  <remote name="lgirdk" fetch="https://github.com/lgirdk/" revision="ofw-2010" />
 
   <default sync-j="8" />
 
   <!-- OSS meta layers -->
 
-  <project remote="lgirdk" name="bitbake" path="openembedded-core/bitbake" revision="oe22b-ofw-2009" />
-  <project remote="lgirdk" name="openembedded-core" revision="oe22b-ofw-2009" />
-  <project remote="lgirdk" name="meta-openembedded" revision="oe22b-ofw-2009" />
+  <project remote="lgirdk" name="bitbake" path="openembedded-core/bitbake" revision="oe22b-ofw-2010" />
+  <project remote="lgirdk" name="openembedded-core" revision="oe22b-ofw-2010" />
+  <project remote="lgirdk" name="meta-openembedded" revision="oe22b-ofw-2010" />
 
   <!-- LGI specific meta layers -->
 
@@ -25,6 +25,7 @@
   <project remote="lgirdk" name="libsyswrapper"        path="src/libsyswrapper" />
   <project remote="lgirdk" name="libunpriv"            path="src/libunpriv" />
   <project remote="lgirdk" name="rdk-logger"           path="src/rdk-logger" />
+  <project remote="lgirdk" name="rdklist"              path="src/rdklist" />
   <project remote="lgirdk" name="syslog-helper"        path="src/syslog-helper" />
   <project remote="lgirdk" name="ccsp-logagent"        path="src/ccsp-logagent" />
   <project remote="lgirdk" name="mtu-modifier"         path="src/mtu-modifier" />
@@ -62,7 +63,7 @@
 
   <!--
 
-    repo init \-\-repo-branch=repo-1 -u https://github.com/lgirdk/manifests-ofw.git -m ofw-2009-oe22.xml
+    repo init \-\-repo-branch=repo-1 -u https://github.com/lgirdk/manifests-ofw.git -b ofw-2010 -m oe22.xml
     repo sync \-\-no-clone-bundle
 
     MACHINE="exm-qemuarm" source ./meta-mng/setup-environment
