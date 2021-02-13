@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="lgirdk" fetch="https://github.com/lgirdk/" revision="ofw-2102" />
+
+  <default sync-j="8" />
+
+  <!-- OSS meta layers -->
+
+  <project remote="lgirdk" name="bitbake" path="openembedded-core/bitbake" revision="oe30-ofw-2102" />
+  <project remote="lgirdk" name="openembedded-core" revision="oe30-ofw-2102" />
+  <project remote="lgirdk" name="meta-openembedded" revision="oe30-ofw-2102" />
+  <project remote="lgirdk" name="meta-gplv2" revision="oe30-ofw-2102" />
+  <project remote="lgirdk" name="meta-clang" revision="oe30-ofw-2102" />
+
+  <!-- LGI specific meta layers -->
+
+  <project remote="lgirdk" name="meta-mng" />
+
+  <!-- Source repos -->
+
+  <project remote="lgirdk" name="rbus"                 path="src/rbus" />
+  <project remote="lgirdk" name="rbuscore"             path="src/rbuscore" />
+  <project remote="lgirdk" name="breakpad-wrapper"     path="src/breakpad-wrapper" />
+  <project remote="lgirdk" name="dca"                  path="src/dca" />
+  <project remote="lgirdk" name="dcm"                  path="src/dcm" />
+  <project remote="lgirdk" name="libsyswrapper"        path="src/libsyswrapper" />
+  <project remote="lgirdk" name="libunpriv"            path="src/libunpriv" />
+  <project remote="lgirdk" name="rdk-logger"           path="src/rdk-logger" />
+  <project remote="lgirdk" name="rdklist"              path="src/rdklist" />
+  <project remote="lgirdk" name="syslog-helper"        path="src/syslog-helper" />
+  <project remote="lgirdk" name="ccsp-logagent"        path="src/ccsp-logagent" />
+  <project remote="lgirdk" name="mtu-modifier"         path="src/mtu-modifier" />
+  <project remote="lgirdk" name="notify-comp"          path="src/notify-comp" />
+  <project remote="lgirdk" name="ccsp-cm-agent"        path="src/ccsp-cm-agent" />
+  <project remote="lgirdk" name="ccsp-common-library"  path="src/ccsp-common-library" />
+  <project remote="lgirdk" name="ccsp-cr"              path="src/ccsp-cr" />
+  <project remote="lgirdk" name="ccsp-dmcli"           path="src/ccsp-dmcli" />
+  <project remote="lgirdk" name="ccsp-eth-agent"       path="src/ccsp-eth-agent" />
+  <project remote="lgirdk" name="ccsp-epon-agent"      path="src/ccsp-epon-agent" />
+  <project remote="lgirdk" name="ccsp-home-security"   path="src/ccsp-home-security" />
+  <project remote="lgirdk" name="ccsp-lm-lite"         path="src/ccsp-lm-lite" />
+  <project remote="lgirdk" name="ccsp-misc"            path="src/ccsp-misc" />
+  <project remote="lgirdk" name="ccsp-moca"            path="src/ccsp-moca" />
+  <project remote="lgirdk" name="ccsp-mta-agent"       path="src/ccsp-mta-agent" />
+  <project remote="lgirdk" name="ccsp-p-and-m"         path="src/ccsp-p-and-m" />
+  <project remote="lgirdk" name="ccsp-psm"             path="src/ccsp-psm" />
+  <project remote="lgirdk" name="ccsp-snmp-pa"         path="src/ccsp-snmp-pa" />
+  <project remote="lgirdk" name="ccsp-tr069-pa"        path="src/ccsp-tr069-pa" />
+  <project remote="lgirdk" name="ccsp-wifi-agent"      path="src/ccsp-wifi-agent" />
+  <project remote="lgirdk" name="ccsp-xdns"            path="src/ccsp-xdns" />
+  <project remote="lgirdk" name="gwprovapp"            path="src/gwprovapp" />
+  <project remote="lgirdk" name="gwprovapp-ethwan"     path="src/gwprovapp-ethwan" />
+  <project remote="lgirdk" name="gwprovapp-epon"       path="src/gwprovapp-epon" />
+  <project remote="lgirdk" name="hal"                  path="src/hal" />
+  <project remote="lgirdk" name="halinterface"         path="src/halinterface" />
+  <project remote="lgirdk" name="hotspot"              path="src/hotspot" />
+  <project remote="lgirdk" name="meshagent"            path="src/meshagent" />
+  <project remote="lgirdk" name="sysint-broadband"     path="src/sysint-broadband" />
+  <project remote="lgirdk" name="test-and-diagnostic"  path="src/test-and-diagnostic" />
+  <project remote="lgirdk" name="telemetry"            path="src/telemetry" />
+  <project remote="lgirdk" name="utopia"               path="src/utopia" />
+
+  <!--
+
+    repo init \-\-repo-branch=repo-1 -u https://github.com/lgirdk/manifests-ofw.git -b ofw-2102 -m oe30.xml
+    repo sync \-\-no-clone-bundle
+
+    MACHINE="exm-qemuarm" source ./meta-mng/setup-environment
+    bitbake mng-image-rdkb
+
+  -->
+
+</manifest>
