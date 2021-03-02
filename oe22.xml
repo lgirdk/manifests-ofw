@@ -37,6 +37,7 @@
   <project remote="lgirdk" name="ccsp-eth-agent"       path="src/ccsp-eth-agent" />
   <project remote="lgirdk" name="ccsp-epon-agent"      path="src/ccsp-epon-agent" />
   <project remote="lgirdk" name="ccsp-home-security"   path="src/ccsp-home-security" />
+  <project remote="lgirdk" name="ccsp-jse"             path="src/ccsp-jse" />
   <project remote="lgirdk" name="ccsp-lm-lite"         path="src/ccsp-lm-lite" />
   <project remote="lgirdk" name="ccsp-misc"            path="src/ccsp-misc" />
   <project remote="lgirdk" name="ccsp-moca"            path="src/ccsp-moca" />
