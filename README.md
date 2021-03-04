@@ -18,6 +18,13 @@ chmod a+x ~/bin/repo
 
 Both Python 2 and Python 3 should be installed and /usr/bin/python should run Python 2.
 
+```shell
+sudo apt-get -y install python2.7
+
+/usr/bin/python --version
+Python 2.7.12
+```
+
 # Fetching and building the code
 
 Each manifest contains its own specific setup and build instructions. For example, to build using OE 3.1 see the instructions in the comments at the end of the [oe31.xml](https://github.com/lgirdk/manifests-ofw/blob/ofw-2102/oe31.xml) manifest:
