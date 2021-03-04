@@ -65,9 +65,10 @@
   <!--
 
     repo init \-\-repo-branch=repo-1 -u https://github.com/lgirdk/manifests-ofw.git -b ofw-2102 -m oe31.xml
-    repo sync \-\-no-clone-bundle
+    repo sync \-\-no-clone-bundle \-\-current-branch
 
     MACHINE="exm-qemuarm" source ./meta-mng/setup-environment
+
     bitbake mng-image-rdkb
 
   -->

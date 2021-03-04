@@ -18,7 +18,7 @@ Each manifest contains its own specific setup and build instructions. For exampl
 
 ```shell
 repo init --repo-branch=repo-1 -u https://github.com/lgirdk/manifests-ofw.git -b ofw-2102 -m oe31.xml
-repo sync --no-clone-bundle
+repo sync --no-clone-bundle --current-branch
 
 MACHINE="exm-qemuarm" source ./meta-mng/setup-environment
 
@@ -33,7 +33,7 @@ For example, to build with gcc and musl libc:
 
 ```shell
 repo init --repo-branch=repo-1 -u https://github.com/lgirdk/manifests-ofw.git -b ofw-2102 -m oe31.xml
-repo sync --no-clone-bundle
+repo sync --no-clone-bundle --current-branch
 
 MACHINE="exm-qemuarm-musl" source ./meta-mng/setup-environment
 
@@ -44,7 +44,7 @@ To build with clang and glibc:
 
 ```shell
 repo init --repo-branch=repo-1 -u https://github.com/lgirdk/manifests-ofw.git -b ofw-2102 -m oe31.xml
-repo sync --no-clone-bundle
+repo sync --no-clone-bundle --current-branch
 
 MACHINE="exm-qemuarm-clang" source ./meta-mng/setup-environment
 
