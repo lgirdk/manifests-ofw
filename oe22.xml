@@ -19,6 +19,7 @@
 
   <project remote="lgirdk" name="rbus"                 path="src/rbus" />
   <project remote="lgirdk" name="rbuscore"             path="src/rbuscore" />
+  <project remote="lgirdk" name="rtmessage"            path="src/rtmessage" />
   <project remote="lgirdk" name="breakpad-wrapper"     path="src/breakpad-wrapper" />
   <project remote="lgirdk" name="dca"                  path="src/dca" />
   <project remote="lgirdk" name="dcm"                  path="src/dcm" />
