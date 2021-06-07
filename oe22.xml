@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="lgirdk" fetch="https://github.com/lgirdk/" revision="ofw-2105" />
+  <remote name="lgirdk" fetch="https://github.com/lgirdk/" revision="ofw-2106er1" />
 
   <default sync-j="8" />
 
   <!-- OSS meta layers -->
 
-  <project remote="lgirdk" name="bitbake" path="openembedded-core/bitbake" revision="oe22b-ofw-2105" />
-  <project remote="lgirdk" name="openembedded-core" revision="oe22b-ofw-2105" />
-  <project remote="lgirdk" name="meta-openembedded" revision="oe22b-ofw-2105" />
+  <project remote="lgirdk" name="bitbake" path="openembedded-core/bitbake" revision="oe22b-ofw-2106er1" />
+  <project remote="lgirdk" name="openembedded-core" revision="oe22b-ofw-2106er1" />
+  <project remote="lgirdk" name="meta-openembedded" revision="oe22b-ofw-2106er1" />
 
   <!-- LGI specific meta layers -->
 
@@ -29,6 +29,7 @@
   <project remote="lgirdk" name="rdklist"              path="src/rdklist" />
   <project remote="lgirdk" name="syslog-helper"        path="src/syslog-helper" />
   <project remote="lgirdk" name="ccsp-logagent"        path="src/ccsp-logagent" />
+  <project remote="lgirdk" name="json-rpc"             path="src/json-rpc" />
   <project remote="lgirdk" name="mtu-modifier"         path="src/mtu-modifier" />
   <project remote="lgirdk" name="notify-comp"          path="src/notify-comp" />
   <project remote="lgirdk" name="ccsp-cm-agent"        path="src/ccsp-cm-agent" />
@@ -56,6 +57,9 @@
   <project remote="lgirdk" name="halinterface"         path="src/halinterface" />
   <project remote="lgirdk" name="hotspot"              path="src/hotspot" />
   <project remote="lgirdk" name="meshagent"            path="src/meshagent" />
+  <project remote="lgirdk" name="rdk-gponmanager"      path="src/rdk-gponmanager" />
+  <project remote="lgirdk" name="rdk-wanmanager"       path="src/rdk-wanmanager" />
+  <project remote="lgirdk" name="rdk-xdslmanager"      path="src/rdk-xdslmanager" />
   <project remote="lgirdk" name="sysint-broadband"     path="src/sysint-broadband" />
   <project remote="lgirdk" name="test-and-diagnostic"  path="src/test-and-diagnostic" />
   <project remote="lgirdk" name="telemetry"            path="src/telemetry" />
@@ -63,7 +67,7 @@
 
   <!--
 
-    repo init \-\-repo-branch=repo-1 -u https://github.com/lgirdk/manifests-ofw.git -b ofw-2105 -m oe22.xml
+    repo init \-\-repo-branch=repo-1 -u https://github.com/lgirdk/manifests-ofw.git -b ofw-2106er1 -m oe22.xml
     repo sync \-\-no-clone-bundle \-\-current-branch
 
     MACHINE="exm-qemuarm" source ./meta-mng/setup-environment
