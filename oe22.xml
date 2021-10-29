@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="lgirdk" fetch="ssh://git@github.com/lgirdk" revision="ofw-2106.15" />
+  <remote name="lgirdk" fetch="ssh://git@github.com/lgirdk" revision="ofw-2106.17" />
 
   <default sync-j="8" />
 
   <!-- OSS meta layers -->
 
-  <project remote="lgirdk" name="bitbake" path="openembedded-core/bitbake" revision="oe22b-ofw-2106.15" />
-  <project remote="lgirdk" name="openembedded-core" revision="oe22b-ofw-2106.15" />
-  <project remote="lgirdk" name="meta-openembedded" revision="oe22b-ofw-2106.15" />
+  <project remote="lgirdk" name="bitbake" path="openembedded-core/bitbake" revision="oe22b-ofw-2106.17" />
+  <project remote="lgirdk" name="openembedded-core" revision="oe22b-ofw-2106.17" />
+  <project remote="lgirdk" name="meta-openembedded" revision="oe22b-ofw-2106.17" />
 
   <!-- LGI specific meta layers -->
 
@@ -71,7 +71,7 @@
 
   <!--
 
-    repo init \-\-repo-branch=repo-1 -u https://github.com/lgirdk/manifests-ofw.git -b ofw-2106.15 -m oe22.xml
+    repo init \-\-repo-branch=repo-1 -u https://github.com/lgirdk/manifests-ofw.git -b ofw-2106.17 -m oe22.xml
     repo sync \-\-no-clone-bundle \-\-current-branch
 
     MACHINE="exm-qemuarm" source ./meta-mng/setup-environment
