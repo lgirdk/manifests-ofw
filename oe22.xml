@@ -60,6 +60,9 @@
   <project remote="lgirdk" name="hotspot"              path="src/hotspot" />
   <project remote="lgirdk" name="meshagent"            path="src/meshagent" />
   <project remote="lgirdk" name="rdk-gponmanager"      path="src/rdk-gponmanager" />
+  <project remote="lgirdk" name="rdk-fwupgrade-manager" path="src/rdk-fwupgrade-manager" />
+  <project remote="lgirdk" name="rdktelcovoicemanager" path="src/rdktelcovoicemanager" />
+  <project remote="lgirdk" name="rdk-vlanmanager"      path="src/rdk-vlanmanager" />
   <project remote="lgirdk" name="rdk-wanmanager"       path="src/rdk-wanmanager" />
   <project remote="lgirdk" name="rdk-xdslmanager"      path="src/rdk-xdslmanager" />
   <project remote="lgirdk" name="sysint-broadband"     path="src/sysint-broadband" />
