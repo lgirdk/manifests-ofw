@@ -31,7 +31,6 @@
   <project remote="lgirdk" name="rdklist"              path="src/rdklist" />
   <project remote="lgirdk" name="syslog-helper"        path="src/syslog-helper" />
   <project remote="lgirdk" name="webconfig-framework"  path="src/webconfig-framework" />
-  <project remote="lgirdk" name="ccsp-logagent"        path="src/ccsp-logagent" />
   <project remote="lgirdk" name="json-rpc"             path="src/json-rpc" />
   <project remote="lgirdk" name="mtu-modifier"         path="src/mtu-modifier" />
   <project remote="lgirdk" name="notify-comp"          path="src/notify-comp" />
