@@ -40,9 +40,7 @@ bitbake mng-image-rdkb
 
 # Alternative manifests
 
-The alternative manifests [oe22.xml](https://github.com/lgirdk/manifests-ofw/blob/ofw-2206.1/oe22.xml) and [oe30.xml](https://github.com/lgirdk/manifests-ofw/blob/ofw-2206.1/oe30.xml) are provided as a reference and to support a transition from older hosts. Both OE 2.2 ("[morty](https://wiki.yoctoproject.org/wiki/Releases)") and OE 3.0 ("[zeus](https://wiki.yoctoproject.org/wiki/Releases)") may be built using Ubuntu 14.04, whereas OE 3.1 requires Ubuntu 16.04 or 18.04.
-
-The alternative manifest [oe32.xml](https://github.com/lgirdk/manifests-ofw/blob/ofw-2206.1/oe32.xml) is provided as a preview of OE 3.2 ("[gatesgarth](https://wiki.yoctoproject.org/wiki/Releases)") and requires Ubuntu 18.04 or 20.04.
+The alternative manifest [oe30.xml](https://github.com/lgirdk/manifests-ofw/blob/ofw-2206.1/oe30.xml) is provided as a reference and to support a transition from older hosts. OE 3.0 ("[zeus](https://wiki.yoctoproject.org/wiki/Releases)") may be built using Ubuntu 14.04, whereas OE 3.1 requires Ubuntu 16.04 or 18.04.
 
 Each manifest also has -open variant (e.g. [oe31-open.xml](https://github.com/lgirdk/manifests-ofw/blob/ofw-2206.1/oe31-open.xml)) which fetches only open source components and so can continue to be used without needing access to any private repos. Builds created with the -open manifests will not include the WebUI.
 
