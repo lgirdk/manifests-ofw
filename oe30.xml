@@ -11,7 +11,6 @@
   <project remote="lgirdk" name="openembedded-core" revision="oe30-ofw-2210.1" />
   <project remote="lgirdk" name="meta-openembedded" revision="oe30-ofw-2210.1" />
   <project remote="lgirdk" name="meta-gplv2" revision="oe30-ofw-2210.1" />
-  <project remote="lgirdk" name="meta-clang" revision="oe30-ofw-2210.1" />
 
   <!-- LGI specific meta layers -->
 

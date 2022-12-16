@@ -58,14 +58,3 @@ MACHINE="exm-qemuarm-musl" source ./meta-mng/setup-environment
 
 bitbake mng-image-rdkb
 ```
-
-To build with clang and glibc:
-
-```shell
-repo init --repo-branch=repo-1 -u https://github.com/lgirdk/manifests-ofw.git -b ofw-2210.1 -m oe31.xml
-repo sync --no-clone-bundle --current-branch
-
-MACHINE="exm-qemuarm-clang" source ./meta-mng/setup-environment
-
-bitbake mng-image-rdkb
-```
