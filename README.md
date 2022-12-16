@@ -35,7 +35,7 @@ repo sync --no-clone-bundle --current-branch
 
 MACHINE="exm-qemuarm" source ./meta-mng/setup-environment
 
-bitbake mng-image-rdkb
+bitbake ofw
 ```
 
 # Alternative manifests
@@ -56,5 +56,5 @@ repo sync --no-clone-bundle --current-branch
 
 MACHINE="exm-qemuarm-musl" source ./meta-mng/setup-environment
 
-bitbake mng-image-rdkb
+bitbake ofw
 ```

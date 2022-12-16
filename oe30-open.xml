@@ -77,7 +77,7 @@
 
     MACHINE="exm-qemuarm" source ./meta-mng/setup-environment
 
-    bitbake mng-image-rdkb
+    bitbake ofw
 
   -->
 
