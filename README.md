@@ -16,13 +16,13 @@ curl https://storage.googleapis.com/git-repo-downloads/repo-1 > ~/bin/repo
 chmod a+x ~/bin/repo
 ```
 
-Both Python 2 and Python 3 should be installed and /usr/bin/python should run Python 2.
+Python 2.7 should be installed and /usr/bin/python2.7 should run Python 2.
 
 ```shell
 sudo apt-get -y install python2.7
 
-/usr/bin/python --version
-Python 2.7.12
+/usr/bin/python2.7 --version
+Python 2.7.17
 ```
 
 # Fetching and building the code
