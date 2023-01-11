@@ -16,15 +16,6 @@ curl https://storage.googleapis.com/git-repo-downloads/repo-1 > ~/bin/repo
 chmod a+x ~/bin/repo
 ```
 
-Python 2.7 should be installed and /usr/bin/python2.7 should run Python 2.
-
-```shell
-sudo apt-get -y install python2.7
-
-/usr/bin/python2.7 --version
-Python 2.7.17
-```
-
 # Fetching and building the code
 
 Each manifest contains its own specific setup and build instructions. For example, to build using OE 3.1 see the instructions in the comments at the end of the [oe31.xml](https://github.com/lgirdk/manifests-ofw/blob/ofw-2210.3/oe31.xml) manifest:
