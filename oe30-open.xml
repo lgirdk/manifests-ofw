@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="lgirdk" fetch="https://github.com/lgirdk/" revision="ofw-2210.5" />
+  <remote name="lgirdk" fetch="https://github.com/lgirdk/" revision="ofw-2301er1" />
 
   <default sync-j="8" />
 
   <!-- OSS meta layers -->
 
-  <project remote="lgirdk" name="bitbake" path="openembedded-core/bitbake" revision="oe30-ofw-2210.5" />
-  <project remote="lgirdk" name="openembedded-core" revision="oe30-ofw-2210.5" />
-  <project remote="lgirdk" name="meta-openembedded" revision="oe30-ofw-2210.5" />
-  <project remote="lgirdk" name="meta-gplv2" revision="oe30-ofw-2210.5" />
+  <project remote="lgirdk" name="bitbake" path="openembedded-core/bitbake" revision="oe30-ofw-2301er1" />
+  <project remote="lgirdk" name="openembedded-core" revision="oe30-ofw-2301er1" />
+  <project remote="lgirdk" name="meta-openembedded" revision="oe30-ofw-2301er1" />
+  <project remote="lgirdk" name="meta-gplv2" revision="oe30-ofw-2301er1" />
 
   <!-- LGI specific meta layers -->
 
@@ -18,9 +18,7 @@
 
   <!-- Source repos -->
 
-  <project remote="lgirdk" name="rbus"                 path="src/rbus" />
-  <project remote="lgirdk" name="rbuscore"             path="src/rbuscore" />
-  <project remote="lgirdk" name="rtmessage"            path="src/rtmessage" />
+  <project remote="lgirdk" name="rbus2"                path="src/rbus2" />
   <project remote="lgirdk" name="breakpad-wrapper"     path="src/breakpad-wrapper" />
   <project remote="lgirdk" name="dca"                  path="src/dca" />
   <project remote="lgirdk" name="dcm"                  path="src/dcm" />
@@ -36,6 +34,7 @@
   <project remote="lgirdk" name="ccsp-cm-agent"        path="src/ccsp-cm-agent" />
   <project remote="lgirdk" name="ccsp-common-library"  path="src/ccsp-common-library" />
   <project remote="lgirdk" name="ccsp-cr"              path="src/ccsp-cr" />
+  <project remote="lgirdk" name="ccsp-dhcp-mgr"        path="src/ccsp-dhcp-mgr" />
   <project remote="lgirdk" name="ccsp-dmcli"           path="src/ccsp-dmcli" />
   <project remote="lgirdk" name="ccsp-eth-agent"       path="src/ccsp-eth-agent" />
   <project remote="lgirdk" name="ccsp-epon-agent"      path="src/ccsp-epon-agent" />
@@ -72,7 +71,7 @@
 
   <!--
 
-    repo init \-\-repo-branch=repo-1 -u https://github.com/lgirdk/manifests-ofw.git -b ofw-2210.5 -m oe30-open.xml
+    repo init \-\-repo-branch=repo-1 -u https://github.com/lgirdk/manifests-ofw.git -b ofw-2301er1 -m oe30-open.xml
     repo sync \-\-no-clone-bundle \-\-current-branch
 
     MACHINE="exm-qemuarm" source ./meta-mng/setup-environment
