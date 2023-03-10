@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="lgirdk" fetch="https://github.com/lgirdk/" revision="ofw-2302er2" />
+  <remote name="lgirdk" fetch="https://github.com/lgirdk/" revision="ofw-2302" />
 
   <default sync-j="8" />
 
   <!-- OSS meta layers -->
 
-  <project remote="lgirdk" name="bitbake" path="openembedded-core/bitbake" revision="oe31-ofw-2302er2" />
-  <project remote="lgirdk" name="openembedded-core" revision="oe31-ofw-2302er2" />
-  <project remote="lgirdk" name="meta-openembedded" revision="oe31-ofw-2302er2" />
-  <project remote="lgirdk" name="meta-gplv2" revision="oe31-ofw-2302er2" />
+  <project remote="lgirdk" name="bitbake" path="openembedded-core/bitbake" revision="oe31-ofw-2302" />
+  <project remote="lgirdk" name="openembedded-core" revision="oe31-ofw-2302" />
+  <project remote="lgirdk" name="meta-openembedded" revision="oe31-ofw-2302" />
+  <project remote="lgirdk" name="meta-gplv2" revision="oe31-ofw-2302" />
 
   <!-- LGI specific meta layers -->
 
@@ -22,6 +22,7 @@
   <project remote="lgirdk" name="breakpad-wrapper"     path="src/breakpad-wrapper" />
   <project remote="lgirdk" name="dca"                  path="src/dca" />
   <project remote="lgirdk" name="dcm"                  path="src/dcm" />
+  <project remote="lgirdk" name="ipoe-health-check"    path="src/ipoe-health-check" />
   <project remote="lgirdk" name="libsyswrapper"        path="src/libsyswrapper" />
   <project remote="lgirdk" name="libunpriv"            path="src/libunpriv" />
   <project remote="lgirdk" name="rdk-logger"           path="src/rdk-logger" />
@@ -71,7 +72,7 @@
 
   <!--
 
-    repo init \-\-repo-branch=repo-1 -u https://github.com/lgirdk/manifests-ofw.git -b ofw-2302er2 -m oe31-open.xml
+    repo init \-\-repo-branch=repo-1 -u https://github.com/lgirdk/manifests-ofw.git -b ofw-2302 -m oe31-open.xml
     repo sync \-\-no-clone-bundle \-\-current-branch
 
     MACHINE="exm-qemuarm" source ./meta-mng/setup-environment
