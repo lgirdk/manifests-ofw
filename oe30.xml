@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="lgirdk" fetch="ssh://git@github.com/lgirdk" revision="ofw-2309er1" />
+  <remote name="lgirdk" fetch="ssh://git@github.com/lgirdk" revision="ofw-2309er2" />
 
   <default sync-j="8" />
 
   <!-- OSS meta layers -->
 
-  <project remote="lgirdk" name="bitbake" path="openembedded-core/bitbake" revision="oe30-ofw-2309er1" />
-  <project remote="lgirdk" name="openembedded-core" revision="oe30-ofw-2309er1" />
-  <project remote="lgirdk" name="meta-openembedded" revision="oe30-ofw-2309er1" />
-  <project remote="lgirdk" name="meta-gplv2" revision="oe30-ofw-2309er1" />
+  <project remote="lgirdk" name="bitbake" path="openembedded-core/bitbake" revision="oe30-ofw-2309er2" />
+  <project remote="lgirdk" name="openembedded-core" revision="oe30-ofw-2309er2" />
+  <project remote="lgirdk" name="meta-openembedded" revision="oe30-ofw-2309er2" />
+  <project remote="lgirdk" name="meta-gplv2" revision="oe30-ofw-2309er2" />
 
   <!-- LGI specific meta layers -->
 
@@ -75,7 +75,7 @@
 
   <!--
 
-    repo init \-\-repo-branch=repo-1 -u https://github.com/lgirdk/manifests-ofw.git -b ofw-2309er1 -m oe30.xml
+    repo init \-\-repo-branch=repo-1 -u https://github.com/lgirdk/manifests-ofw.git -b ofw-2309er2 -m oe30.xml
     repo sync \-\-no-clone-bundle \-\-current-branch
 
     MACHINE="exm-qemuarm" source ./meta-mng/setup-environment
