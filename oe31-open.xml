@@ -36,7 +36,6 @@
   <project remote="lgirdk" name="ccsp-dhcp-mgr"        path="src/ccsp-dhcp-mgr" />
   <project remote="lgirdk" name="ccsp-dmcli"           path="src/ccsp-dmcli" />
   <project remote="lgirdk" name="ccsp-eth-agent"       path="src/ccsp-eth-agent" />
-  <project remote="lgirdk" name="ccsp-epon-agent"      path="src/ccsp-epon-agent" />
   <project remote="lgirdk" name="ccsp-jse"             path="src/ccsp-jse" />
   <project remote="lgirdk" name="ccsp-lm-lite"         path="src/ccsp-lm-lite" />
   <project remote="lgirdk" name="ccsp-misc"            path="src/ccsp-misc" />
@@ -50,8 +49,6 @@
   <project remote="lgirdk" name="ccsp-xdns"            path="src/ccsp-xdns" />
   <project remote="lgirdk" name="core-net-lib"         path="src/core-net-lib" />
   <project remote="lgirdk" name="gwprovapp"            path="src/gwprovapp" />
-  <project remote="lgirdk" name="gwprovapp-ethwan"     path="src/gwprovapp-ethwan" />
-  <project remote="lgirdk" name="gwprovapp-epon"       path="src/gwprovapp-epon" />
   <project remote="lgirdk" name="hal"                  path="src/hal" />
   <project remote="lgirdk" name="halinterface"         path="src/halinterface" />
   <project remote="lgirdk" name="hotspot"              path="src/hotspot" />
@@ -61,7 +58,6 @@
   <project remote="lgirdk" name="rdktelcovoicemanager" path="src/rdktelcovoicemanager" />
   <project remote="lgirdk" name="rdk-vlanmanager"      path="src/rdk-vlanmanager" />
   <project remote="lgirdk" name="rdk-wanmanager"       path="src/rdk-wanmanager" />
-  <project remote="lgirdk" name="rdk-xdslmanager"      path="src/rdk-xdslmanager" />
   <project remote="lgirdk" name="sysint-broadband"     path="src/sysint-broadband" />
   <project remote="lgirdk" name="test-and-diagnostic"  path="src/test-and-diagnostic" />
   <project remote="lgirdk" name="telemetry"            path="src/telemetry" />
