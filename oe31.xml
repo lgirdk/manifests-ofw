@@ -20,7 +20,6 @@
   <!-- Source repos -->
 
   <project remote="lgirdk" name="rbus2"                path="src/rbus2" />
-  <project remote="lgirdk" name="breakpad-wrapper"     path="src/breakpad-wrapper" />
   <project remote="lgirdk" name="ipoe-health-check"    path="src/ipoe-health-check" />
   <project remote="lgirdk" name="libsyswrapper"        path="src/libsyswrapper" />
   <project remote="lgirdk" name="libunpriv"            path="src/libunpriv" />
