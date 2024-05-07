@@ -24,7 +24,6 @@
   <project remote="lgirdk" name="libsyswrapper"        path="src/libsyswrapper" />
   <project remote="lgirdk" name="libunpriv"            path="src/libunpriv" />
   <project remote="lgirdk" name="rdk-logger"           path="src/rdk-logger" />
-  <project remote="lgirdk" name="rdklist"              path="src/rdklist" />
   <project remote="lgirdk" name="syslog-helper"        path="src/syslog-helper" />
   <project remote="lgirdk" name="webconfig-framework"  path="src/webconfig-framework" />
   <project remote="lgirdk" name="json-rpc"             path="src/json-rpc" />
