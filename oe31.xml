@@ -38,14 +38,12 @@
   <project remote="lgirdk" name="ccsp-jse"             path="src/ccsp-jse" />
   <project remote="lgirdk" name="ccsp-lm-lite"         path="src/ccsp-lm-lite" />
   <project remote="lgirdk" name="ccsp-misc"            path="src/ccsp-misc" />
-  <project remote="lgirdk" name="ccsp-moca"            path="src/ccsp-moca" />
   <project remote="lgirdk" name="ccsp-mta-agent"       path="src/ccsp-mta-agent" />
   <project remote="lgirdk" name="ccsp-p-and-m"         path="src/ccsp-p-and-m" />
   <project remote="lgirdk" name="ccsp-psm"             path="src/ccsp-psm" />
   <project remote="lgirdk" name="ccsp-snmp-pa"         path="src/ccsp-snmp-pa" />
   <project remote="lgirdk" name="ccsp-tr069-pa"        path="src/ccsp-tr069-pa" />
   <project remote="lgirdk" name="ccsp-wifi-agent"      path="src/ccsp-wifi-agent" />
-  <project remote="lgirdk" name="ccsp-xdns"            path="src/ccsp-xdns" />
   <project remote="lgirdk" name="core-net-lib"         path="src/core-net-lib" />
   <project remote="lgirdk" name="gwprovapp"            path="src/gwprovapp" />
   <project remote="lgirdk" name="hal"                  path="src/hal" />
