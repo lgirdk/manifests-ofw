@@ -7,7 +7,7 @@ sudo apt-get -y install gawk wget git diffstat unzip texinfo gcc build-essential
   chrpath socat cpio python3 python3-pip python3-pexpect xz-utils debianutils \
   iputils-ping python3-git python3-jinja2 python3-subunit zstd liblz4-tool file \
   locales libacl1
-sudo sudo locale-gen en_US.UTF-8
+sudo locale-gen en_US.UTF-8
 ```
 
 The host should have the Google "repo" tool installed. The older [repo-1](https://source.android.com/setup/develop#old-repo-python2) branch is currently recommended.
