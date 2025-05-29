@@ -64,7 +64,8 @@
   <project remote="lgirdk" name="utopia"               path="src/utopia" />
 
   <project remote="lgirdk" name="rest-backend"         path="src/rest-backend" />
-  <project remote="lgirdk" name="webui-ofw"            path="src/webui-ofw" />
+  <project remote="lgirdk" name="webui2-ofw"           path="src/webui2-ofw" />
+  <project remote="lgirdk" name="webui3-ofw"           path="src/webui3-ofw" />
 
   <!--
 
