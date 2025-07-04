@@ -65,7 +65,7 @@
 
   <project remote="lgirdk" name="rest-backend"         path="src/rest-backend" />
   <project remote="lgirdk" name="webui2-ofw"           path="src/webui2-ofw" />
-  <project remote="lgirdk" name="webui3-ofw"           path="src/webui3-ofw" />
+  <project remote="lgirdk" name="webui3-prebuilt"      path="src/webui3-prebuilt" />
 
   <!--
 
