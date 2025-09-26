@@ -10,7 +10,6 @@
   <project remote="lgirdk" name="bitbake" path="openembedded-core/bitbake" revision="oe40-ofw-2504.5" />
   <project remote="lgirdk" name="openembedded-core" revision="oe40-ofw-2504.5" />
   <project remote="lgirdk" name="meta-openembedded" revision="oe40-ofw-2504.5" />
-  <project remote="lgirdk" name="meta-gplv2" revision="oe40-ofw-2504.5" />
 
   <!-- LGI specific meta layers -->
 
