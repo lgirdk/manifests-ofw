@@ -30,7 +30,3 @@ MACHINE="exm-qemuarm" source ./meta-mng/setup-environment
 
 bitbake ofw
 ```
-
-# Alternative manifests
-
-Each manifest also has -open variant (e.g. [oe40-open.xml](https://github.com/lgirdk/manifests-ofw/blob/ofw-2603.3/oe40-open.xml)) which fetches only open source components and so can be used without access to any private repos. Builds created with the -open manifests will not include closed source components such as the WebUI.
