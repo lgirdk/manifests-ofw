@@ -32,7 +32,6 @@
   <project remote="lgirdk" name="ccsp-cm-agent"        path="src/ccsp-cm-agent" />
   <project remote="lgirdk" name="ccsp-common-library"  path="src/ccsp-common-library" />
   <project remote="lgirdk" name="ccsp-cr"              path="src/ccsp-cr" />
-  <project remote="lgirdk" name="ccsp-dhcp-mgr"        path="src/ccsp-dhcp-mgr" />
   <project remote="lgirdk" name="ccsp-dmcli"           path="src/ccsp-dmcli" />
   <project remote="lgirdk" name="ccsp-eth-agent"       path="src/ccsp-eth-agent" />
   <project remote="lgirdk" name="ccsp-jse"             path="src/ccsp-jse" />
