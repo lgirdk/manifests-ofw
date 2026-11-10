@@ -38,7 +38,6 @@
   <project remote="lgirdk" name="ccsp-lm-lite"         path="src/ccsp-lm-lite" />
   <project remote="lgirdk" name="ccsp-misc"            path="src/ccsp-misc" />
   <project remote="lgirdk" name="ccsp-mta-agent"       path="src/ccsp-mta-agent" />
-  <project remote="lgirdk" name="ccsp-one-wifi"        path="src/ccsp-one-wifi" />
   <project remote="lgirdk" name="ccsp-p-and-m"         path="src/ccsp-p-and-m" />
   <project remote="lgirdk" name="ccsp-psm"             path="src/ccsp-psm" />
   <project remote="lgirdk" name="ccsp-snmp-pa"         path="src/ccsp-snmp-pa" />
@@ -55,7 +54,6 @@
   <project remote="lgirdk" name="rdktelcovoicemanager" path="src/rdktelcovoicemanager" />
   <project remote="lgirdk" name="rdk-vlanmanager"      path="src/rdk-vlanmanager" />
   <project remote="lgirdk" name="rdk-wanmanager"       path="src/rdk-wanmanager" />
-  <project remote="lgirdk" name="rdk-wifi-hal"         path="src/rdk-wifi-hal" />
   <project remote="lgirdk" name="sysint-broadband"     path="src/sysint-broadband" />
   <project remote="lgirdk" name="test-and-diagnostic"  path="src/test-and-diagnostic" />
   <project remote="lgirdk" name="telemetry"            path="src/telemetry" />
