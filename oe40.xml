@@ -11,7 +11,7 @@
   <project remote="lgirdk" name="openembedded-core" revision="oe40-ofw-2603.5" />
   <project remote="lgirdk" name="meta-openembedded" revision="oe40-ofw-2603.5" />
 
-  <!-- LGI specific meta layers -->
+  <!-- OFW specific meta layers -->
 
   <project remote="lgirdk" name="meta-mng" />
   <project remote="lgirdk" name="meta-mng-restricted" />
